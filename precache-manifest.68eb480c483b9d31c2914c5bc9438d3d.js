@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fa1391de54fd847e153b",
-    "url": "/09-todo-react-victoriacheungwustl/static/css/main.8bb5ae9e.chunk.css"
+    "revision": "e4db873df4695ce90a16",
+    "url": "/09-todo-react-victoriacheungwustl/static/css/main.f175da05.chunk.css"
   },
   {
-    "revision": "fa1391de54fd847e153b",
-    "url": "/09-todo-react-victoriacheungwustl/static/js/main.fa1391de.chunk.js"
+    "revision": "e4db873df4695ce90a16",
+    "url": "/09-todo-react-victoriacheungwustl/static/js/main.e4db873d.chunk.js"
   },
   {
     "revision": "3da870a3c1c4b41662f2",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/09-todo-react-victoriacheungwustl/static/js/runtime~main.61857725.js"
   },
   {
-    "revision": "fb3558ea5aad0277d9ed26ee21a46ab6",
+    "revision": "e985bbb25e647be188a146679192286e",
     "url": "/09-todo-react-victoriacheungwustl/index.html"
   }
 ];
