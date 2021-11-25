@@ -1,0 +1,164 @@
+body {
+    background-color:rgb(240, 239, 235);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+ }
+ 
+h1 {
+     text-align: center;
+     display: inline-block;
+     position: relative;
+     width: 100%;
+     color: #231123;
+     font-family: 'Cormorant Garamond', serif;
+     font-weight:100;
+     
+}
+
+.title {
+    position: relative;
+    background-color: rgb(240, 239, 235);
+    color: #633863;
+}
+
+.header {
+    position: relative;
+    left: 8px;
+    top: 10px;
+
+    width: 99%;
+    height: auto;
+    border-top: 1.5px rgb(161, 159, 153) solid;
+    border-bottom: 1.5px rgb(163, 161, 154) solid;
+    
+    padding-bottom: 30px;
+}
+
+.introduction {
+    text-align: center;
+    display:inline-block;
+
+    position: relative;
+    bottom: 30px;
+
+    width: 100%;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight:100;
+    font-size: 10px;
+
+    text-transform: uppercase;
+    line-height: 34px;
+}
+
+
+
+/**CHANGE STYLING OFF ADD NEW TO-DO FORM**/
+input {
+    width: 20px;
+    height: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+::placeholder {
+    text-align:center;
+    font-size: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+ 
+#addedTask {
+    font-size: 25px;
+    border: none;
+    border-radius: 4px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: none; 
+    border-bottom: 1px solid grey; 
+}
+
+/**CHANGE STYLING OF ADD BUTTON**/
+ 
+#addButton {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+     color: white;
+     background-color: #231123;
+     font-size: 25px;
+     text-decoration:none;
+     border: none;
+
+     font-family: 'Cormorant Garamond', serif;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+ 
+#addButton:hover {
+     color: white;
+     background-color: #EAB464;
+}
+ 
+ 
+:checked p {
+     text-decoration: line-through;
+     color: rgb(48, 70, 61);
+}
+
+/**CHANGE FORMAT OF TO-DO LIST*/
+
+ul {
+     font-size: 20px;
+     
+}
+ 
+ 
+p li {
+     list-style-type: none;
+     margin-bottom: 20px;
+     margin-top: 40px;
+}
+ 
+p {
+     text-align: center;
+     display: inline-block;
+     position: relative;
+     width: 100%;
+     font-size: 30px;
+     margin-right: 20px;
+
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 18px;
+     font-style: italic;
+}
+ 
+ 
+/**CHANGE THE ADD AND DELETE BUTTONS*/ 
+button {
+     color: white;
+     background-color: #231123;
+     border-radius: 4px;
+     text-decoration: none;
+     border:none;
+     padding: 10px;
+     margin-left: 20px;
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 14px;
+}
+ 
+button:hover {
+     background-color: #EAB464;
+}
+ 
+ 
+#checked {
+     margin-left: 20px;
+}
