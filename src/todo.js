@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import './Todo.css';
+import './todo.css';
 
 class Todo extends Component {
   render() {
     return (
-        <p id="toDoList"> </p>
+        <div id="toDoList"> 
+            <p>Buy Groceries</p>
+        </div>
+        
     );
   }
 }
