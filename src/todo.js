@@ -5,7 +5,7 @@ class Todo extends Component {
   render() {
     return (
         <div id="toDoList"> 
-            <p>Buy Groceries</p>
+            <p>{this.props.text}</p>
         </div>
         
     );
