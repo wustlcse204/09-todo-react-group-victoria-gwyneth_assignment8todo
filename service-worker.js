@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/09-todo-react-victoriacheungwustl/precache-manifest.68eb480c483b9d31c2914c5bc9438d3d.js"
+  "/09-todo-react-group-victoria-gwyneth_assignment8todo/precache-manifest.8cd46bdadd0c6809aa4c19913cb9b3cb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/09-todo-react-victoriacheungwustl/index.html", {
+workbox.routing.registerNavigationRoute("/09-todo-react-group-victoria-gwyneth_assignment8todo/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
