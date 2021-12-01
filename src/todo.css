@@ -73,3 +73,8 @@ button:hover {
 #checked {
     margin-left: 20px;
 }
+
+#checked:checked + p{
+    text-decoration: line-through;
+    color: rgb(167, 166, 166); 
+}
