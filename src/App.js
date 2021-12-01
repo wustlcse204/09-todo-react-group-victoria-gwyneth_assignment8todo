@@ -30,6 +30,8 @@ class App extends Component {
         //returns an array of objects as JSON (each object will be a ToDo that has been previously submitted with my API key) JSON.parse() parses this JSON into a usable array
         var todosResponse = JSON.parse(this.responseText); //NOTE: this array will be empty before we have successfully submitted any ToDos
         currComponent.setState({todos: todosResponse});
+
+        console.log(todosResponse);
       }
     };
 

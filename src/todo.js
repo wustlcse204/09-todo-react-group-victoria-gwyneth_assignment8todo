@@ -4,7 +4,8 @@ import './todo.css';
 class Todo extends Component {
   constructor(props){
     super(props);
-    this.check = {id: this.props.id};
+    this.state = {id: this.props.id, input: ''}; // fix state
+    this.check = this.check.bind(this);
   }
 
   check(event) {
@@ -24,7 +25,7 @@ class Todo extends Component {
     xhttp4.send(JSON.stringify(value));
   }
 
-  render() {
+  render() { // fix this render()
     var className = "todo";
     this.check = {completed: this.props.completed};
     if (this.check.completed) {
@@ -33,7 +34,7 @@ class Todo extends Component {
     return (
         <div id= {this.props.id}> 
             <button className="button" onClick={this.props.delete}>DELETE</button>
-            <input id= "checked" className="checkbox" type="checkbox" onClick={this.check}></input>
+            <input id= "checked" className="checkbox" type="checkbox" onClick={this.check}></input> // SOMETHING IS WRONG WITH OnClick
             <p>{this.props.text}</p>
         </div>
         
