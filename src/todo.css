@@ -82,9 +82,17 @@ button:hover {
 
 #checked {
     margin-left: 20px;
+    padding-left: 200px;
+    position: relative;
+    top: 55px;
+    left: 480px;
 }
 
 #checked:checked + p{
     text-decoration: line-through;
     color: rgb(167, 166, 166); 
+}
+
+.checkbox{
+    padding-left: 200px;
 }

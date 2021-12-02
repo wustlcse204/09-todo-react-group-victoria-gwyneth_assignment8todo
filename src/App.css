@@ -153,7 +153,6 @@ button {
      
      font-family: 'Cormorant Garamond', serif;
      font-size: 14px;
-
      
      
 }
@@ -183,5 +182,6 @@ button:hover {
  
  
 #checked {
-     margin-left: 20px;
+     margin-left: 400px;
+    padding-left: 500px;
 }
