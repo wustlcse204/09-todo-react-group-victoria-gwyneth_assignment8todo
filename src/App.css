@@ -92,7 +92,7 @@ input {
      margin-right: auto;
      margin-top: 10px;
      color: white;
-     background-color: #231123;
+     background-color: pink;
      font-size: 25px;
      text-decoration:none;
      border: none;
@@ -144,16 +144,39 @@ p {
 /**CHANGE THE ADD AND DELETE BUTTONS*/ 
 button {
      color: white;
-     background-color: #231123;
+     background-color: pink;
      border-radius: 4px;
      text-decoration: none;
      border:none;
      padding: 10px;
-     margin-left: 20px;
+     margin: auto;
+     
      font-family: 'Cormorant Garamond', serif;
      font-size: 14px;
+
+     
+     
 }
  
+#sort {
+     position: relative;
+     left: 620px;
+     margin: auto;
+     margin-bottom: 30px;
+     /* top: 278px;
+     left: 90px; */
+}
+
+#submit {
+     position: relative;
+     left: 675px;
+     margin: auto;
+     margin-bottom: 30px;
+
+     /* left: 1100px;
+     top: -58px; */
+}
+
 button:hover {
      background-color: #EAB464;
 }

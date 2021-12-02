@@ -4,8 +4,8 @@ import './todo.css';
 class Todo extends Component {
   constructor(props){
     super(props);
-    this.state = {id: this.props.id, input: ''}; // fix state
-    this.check = this.check.bind(this);
+    this.state = {id: this.props.id, completed: this.props.completed, input: ''}; // fix state / what should my input even be??? / need render() fixed.
+    this.check = this.check.bind(this); // 12/1 @ 12:24 PM -- Added ".bind"
   }
 
   check(event) {
@@ -26,20 +26,22 @@ class Todo extends Component {
   }
 
   render() { // fix this render()
-    var className = "todo";
-    this.check = {completed: this.props.completed};
-    if (this.check.completed) {
-      className = "todo completed";
+    var classNameVar = "todo";
+    // this.check = {completed: this.props.completed};
+    if (this.state.completed) {
+      classNameVar = "todo completed";
     }
     return (
-        <div id= {this.props.id}> 
+        <div id= {this.props.id} className = {classNameVar}> 
             <button className="button" onClick={this.props.delete}>DELETE</button>
-            <input id= "checked" className="checkbox" type="checkbox" onClick={this.check}></input> // SOMETHING IS WRONG WITH OnClick
-            <p>{this.props.text}</p>
+            <input id= "checked" className="checkbox" type="checkbox" onClick={this.check}></input> 
+            <p> {this.props.text}</p>
         </div>
         
     );
   }
+
+  
 }
 
 export default Todo;
