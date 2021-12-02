@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/09-todo-react-group-victoria-gwyneth_assignment8todo/precache-manifest.bb1d450c93fd8090eeef77713a9425a1.js"
+  "/09-todo-react-group-victoria-gwyneth_assignment8todo/precache-manifest.59fc43fdc29190d6c7d4d42c7e8b3526.js"
 );
 
 workbox.clientsClaim();
